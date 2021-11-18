@@ -1,9 +1,10 @@
 import React from "react";
-import { getData } from "./api/api";
 import "./styles.css";
 
 export default function App() {
-  // Retrieve the data from the api (getData) and display in a table
+  // Retrieve the data from the api (getData) here and display in a table
+  
+
   return (
     <div className="App">
       <h1>Sensor array dashboard</h1>
@@ -16,6 +17,9 @@ export default function App() {
         </select>
       </p>
       <p>The data</p>
+
+      {/* Display the data here, feel free to rearrange/redo the table below */}
+
       <table>
         <thead>
           <tr>
